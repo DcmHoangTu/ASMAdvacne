@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ASM2.1\" />
+    <None Remove="ASM2.1\Material\" />
+    <None Remove="ASM2.1\Decorator\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ASM2.1\Material\" />
+    <Folder Include="ASM2.1\Decorator\" />
+  </ItemGroup>
+</Project>
